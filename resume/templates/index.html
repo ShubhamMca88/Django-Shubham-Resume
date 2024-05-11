@@ -1,0 +1,117 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shubham-MCA88</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+
+<body>
+    <section id="about">
+
+        <div class="row section-intro">
+            <div class="col-twelve">
+
+                <h5>About</h5>
+                <h1>Let me introduce myself.</h1>
+
+                <div class="intro-info">
+
+                    <img src="static\img\About.jpg" alt="Profile Picture">
+
+                    <p class="lead">Hy I'm shubham, as developer with a passion for crafting clean and efficient
+                        code. Proficient in frontend and backend technologies, with a focus on creating intuitive user
+                        experiences and scalable solutions. Dedicated to continuous learning and staying updated with
+                        the latest industry trends. Ready to contribute to dynamic teams and drive impactful projects.
+                    </p>
+                </div>
+
+            </div>
+        </div> <!-- /section-intro -->
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full">
+
+                <h3>Profile</h3>
+                <p>I am looking for full-time positions in roles like Python Full Stack Developer, Data Analyst, Django
+                    Web Development, Software Developer, and various other technical positions.</p>
+
+                <ul class="info-list">
+                    <li>
+                        <strong>Fullname:</strong>
+                        <a href="https://github.com/ShubhamMca88">Shubham kumar</a>
+                    </li>
+
+                    <li>
+                        <strong>Education:</strong>
+                        <a href="https://github.com/ShubhamMca88">Post-Graduate (MCA) </a>
+                    </li>
+                    <li>
+                        <strong>Github:</strong>
+                        <a href="https://github.com/ShubhamMca88">ShubhamMca88</a>
+                    </li>
+                    <li>
+                        <strong>Email:</strong>
+                        <a href="mailto:shubhamkumar.mca88@gmail.com">shubhamkumar.mca88@gmail.com</a>
+                    </li>
+
+                </ul> <!-- /info-list -->
+
+            </div>
+
+            <div class="col-six tab-full">
+
+                <h3>Skills</h3>
+                <p>As a developer, I possess a versatile skill set honed through practical experience and continuous
+                    learning. Here's a glimpse of the skills I bring to the table.</p>
+
+                <ul class="skill-bars">
+                    <li>
+                        <div class="progress percent90"><span>90%</span></div>
+                        <strong>HTML</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent85"><span>85%</span></div>
+                        <strong>CSS</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent70"><span>70%</span></div>
+                        <strong>Javascript</strong>
+                    </li>
+                    <li>
+                        <div class="progress percent95"><span>80%</span></div>
+                        <strong>Python</strong>
+                    </li>
+                    <li>
+
+                        <div class="progress percent75"><span>85%</span></div>
+                        <strong>Django</strong>
+                    </li>
+
+                </ul> <!-- /skill-bars -->
+
+            </div>
+
+        </div>
+
+        <div class="row button-section">
+            <div class="col-twelve">
+                <a href="mailto:shubhamkumar.mca88@gmail.com" title="Hire Me" class="button stroke smoothscroll">Hire
+                    Me</a>
+                <a href="{% static 'resume/resume.pdf' %}" title="Download CV" class="button button-primary">Download
+                    CV</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- partial -->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="{% static 'script.js' %}"></script>
+
+</body>
+
+</html>
