@@ -39,7 +39,12 @@ This repository contains the code for Simple resume website templates using djan
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Github](https://img.shields.io/badge/Github-9195F6?style=for-the-badge&logo=github&logoColor=white)
 
+## Screen shot
+  <img src="resume\static\img\1.png" alt="1 view" width="300">
+
 <h3 align="left">Support </h3>
 <p><a href="https://buymeacoffee.com/shubhammca88"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="shubham" /></a></p><br><br>
 
 <br/>
+
+
